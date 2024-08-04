@@ -47,11 +47,17 @@ TagManager:
   - name: Front
     uniqueID: 1473678603
     locked: 0
+  - name: Object
+    uniqueID: 1826519613
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
   - name: Terrain
     uniqueID: 1160400591
+    locked: 0
+  - name: NPC
+    uniqueID: 2704192941
     locked: 0
   - name: Player
     uniqueID: 1723734053
