@@ -47,6 +47,9 @@ TagManager:
   - name: Front
     uniqueID: 1473678603
     locked: 0
+  - name: Object_BG
+    uniqueID: 142027591
+    locked: 0
   - name: Object
     uniqueID: 1826519613
     locked: 0

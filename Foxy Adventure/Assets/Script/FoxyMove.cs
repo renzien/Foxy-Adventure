@@ -10,6 +10,7 @@ public class FoxyMove : MonoBehaviour
     private float dirX;
     [SerializeField] private float moveSpeed = 6f;
     [SerializeField] private float jumpForce = 10f;
+    private enum MovementState { idle, running, jumping, falling}
 
     // Start is called before the first frame update
     private void Start()
@@ -35,20 +36,33 @@ public class FoxyMove : MonoBehaviour
 
     private void UpdateAnimation()
     {
+        MovementState state;
+
         // Assign Animasi
         if (dirX > 0)
         {
-            anim.SetBool("running", true);
+            state = MovementState.running;
             sprite.flipX = false;
         }
         else if (dirX < 0)
         {
-            anim.SetBool("running", true);
+            state = MovementState.running;
             sprite.flipX = true;
         }
         else 
         {
-            anim.SetBool("running", false);
+            state = MovementState.idle;
         }
+
+        if (rb.velocity.y > .1f)
+        {
+            state = MovementState.jumping;
+        }
+        else if (rb.velocity.y < -.1f)
+        {
+            state = MovementState.falling;
+        }
+
+        anim.SetInteger("state", (int)state);
     }
 }
