@@ -18,4 +18,9 @@ MonoBehaviour:
   - 'Like getting a job offer? Or maybe winning GDWC 2024?
 
     I wonder what happened
-    to you.'
+    to you. Should i Ask ?'
+  responses:
+  - responseText: Yes
+    dialogueObject: {fileID: 11400000, guid: 3112e8ef11ce5bb4480d1a0a91be0dd9, type: 2}
+  - responseText: No
+    dialogueObject: {fileID: 11400000, guid: a4c897c28d18281428f0719fd561871e, type: 2}
