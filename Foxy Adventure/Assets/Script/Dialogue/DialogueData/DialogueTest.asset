@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: DialogueTest
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Halo, tuan katak!
+  - 'Tumben sekali, tuan katak diluar rumah. Biasanya, ia paling
 
-    Sepertinya, anda terlihat senang hari ini.'
-  - "Ada gerangan apakah ? \nGajian atau bonus sudah turun lebih cepat ?"
+    jarang untuk
+    terlihat di pagi hari seperti ini.'
+  - "Ada gerangan apakah ? \nHaruskah aku menyapanya ?"
+  responses:
+  - responseText: Yes
+    dialogueObject: {fileID: 11400000, guid: c59000579d794db4aba54fc7bdad2c33, type: 2}
+  - responseText: No
+    dialogueObject: {fileID: 11400000, guid: 54cb63e49dcf7e244b6ab08a2f583eae, type: 2}
