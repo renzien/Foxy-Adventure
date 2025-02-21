@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8305cd899a98184b96180b464cdd144, type: 3}
+  m_Name: DialData_1
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Wahh, jarang sekali aku melihat tuan kodok diluar.
+
+    Ia, terlihat sangat
+    murung diluar rumah, seperti ada yang
+
+    mengganjal dipikirannya.'
+  - "Aku juga jarang sekali melihat, tuan kodok bersosialisasi\ndengan tetangga di
+    forest abyss ini. Apakah, tuan kodok\ntidak memiliki teman mungkin ya ?\t"
+  - 'Haruskah aku bertanya kepada tuan kodok, bagaimana
+
+    situasinya saat ini
+    ?'

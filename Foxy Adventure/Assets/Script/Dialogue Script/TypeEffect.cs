@@ -5,16 +5,17 @@ using TMPro;
 public class TypeEffect : MonoBehaviour
 {
     [SerializeField] private float typeSpeed = 50f;
-    public void Run(string textToType, TMP_Text labelText)
+    public Coroutine Run(string textToType, TMP_Text labelText)
     {
-        StartCoroutine(TextType(textToType, labelText));
+        return StartCoroutine(TextType(textToType, labelText));
     }
 
     // IEnumerator
     private IEnumerator TextType(string textToType, TMP_Text labelText)
     {
         labelText.text = string.Empty;
-        yield return new WaitForSeconds(0.2f);
+
+        
 
         float t = 0;
         int charIndex = 0;

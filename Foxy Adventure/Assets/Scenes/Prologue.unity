@@ -22657,6 +22657,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   labelText: {fileID: 552109941}
+  dialogueData: {fileID: 11400000, guid: 3f41268a58ee1f943934c9f17ca4369c, type: 2}
 --- !u!114 &874244002
 MonoBehaviour:
   m_ObjectHideFlags: 0
