@@ -8,11 +8,13 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private TMP_Text labelText;
     [SerializeField] private DialogueObject dialogueData;
 
+    private ResponseHandler responseHandler;
     private TypeEffect typeEffect;
 
     private void Start()
     {
         typeEffect = GetComponent<TypeEffect>();
+        responseHandler = GetComponent<ResponseHandler>();
         ClosedDialogueBox();
         ShowDialogue(dialogueData);
     }
@@ -35,7 +37,14 @@ public class DialogueUI : MonoBehaviour
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
         }
 
-        ClosedDialogueBox();
+        if (dialogueObject.HasResponses)
+        {
+            responseHandler.ShowResponses(dialogueObject.Responses);       
+        }
+        else
+        {
+            ClosedDialogueBox();
+        }
     }
 
     private void ClosedDialogueBox()
