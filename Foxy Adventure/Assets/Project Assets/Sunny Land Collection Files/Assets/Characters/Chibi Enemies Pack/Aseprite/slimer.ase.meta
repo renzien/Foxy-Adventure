@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -105,6 +106,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +128,7 @@ ScriptedImporter:
     pivot: {x: 0.46, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -146,6 +149,7 @@ ScriptedImporter:
     pivot: {x: 0.5178572, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -166,6 +170,7 @@ ScriptedImporter:
     pivot: {x: 0.48076925, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -186,6 +191,7 @@ ScriptedImporter:
     pivot: {x: 0.5833334, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -206,6 +212,7 @@ ScriptedImporter:
     pivot: {x: 0.62903225, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -226,6 +233,7 @@ ScriptedImporter:
     pivot: {x: 0.5131579, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -246,6 +254,7 @@ ScriptedImporter:
     pivot: {x: 0.62, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -266,6 +275,7 @@ ScriptedImporter:
     pivot: {x: 0.4791667, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -286,6 +296,7 @@ ScriptedImporter:
     pivot: {x: 0.46, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -306,6 +317,7 @@ ScriptedImporter:
     pivot: {x: 0.46, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -326,6 +338,7 @@ ScriptedImporter:
     pivot: {x: 0.46, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -346,6 +359,7 @@ ScriptedImporter:
     pivot: {x: 0.46, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -366,6 +380,7 @@ ScriptedImporter:
     pivot: {x: 0.46, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -386,6 +401,7 @@ ScriptedImporter:
     pivot: {x: 0.46, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -406,6 +422,7 @@ ScriptedImporter:
     pivot: {x: 0.4791667, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -424,13 +441,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 433269672
+    guid: -1243042744
     name: slimer
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: slimer_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -439,7 +456,7 @@ ScriptedImporter:
         width: 25
         height: 21
       spriteId: 10ec53562d1f99042a994d1b48f76ab8
-    - name: slimer_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -448,7 +465,7 @@ ScriptedImporter:
         width: 28
         height: 16
       spriteId: cbe36540df8bf9f44a360ecf75f386d8
-    - name: slimer_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -457,7 +474,7 @@ ScriptedImporter:
         width: 26
         height: 37
       spriteId: 8bde147c01dba424a985bd66893a87d4
-    - name: slimer_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -466,7 +483,7 @@ ScriptedImporter:
         width: 30
         height: 36
       spriteId: 769b4d61f6b0af648a2123d4310b1bca
-    - name: slimer_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -475,7 +492,7 @@ ScriptedImporter:
         width: 31
         height: 35
       spriteId: b48b42d0b7536ee4cad97ca2da1c21db
-    - name: slimer_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -484,7 +501,7 @@ ScriptedImporter:
         width: 38
         height: 24
       spriteId: 9fd355f3bfce3dd4889fbc8234df5b56
-    - name: slimer_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -493,7 +510,7 @@ ScriptedImporter:
         width: 25
         height: 32
       spriteId: ba29eb594d3c26f43927637b678e7f35
-    - name: slimer_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -502,7 +519,7 @@ ScriptedImporter:
         width: 24
         height: 21
       spriteId: ac9616f0e7712864c807bbd11e634fca
-    - name: slimer_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -511,7 +528,7 @@ ScriptedImporter:
         width: 25
         height: 20
       spriteId: 46296e00470eb54418957798498c1865
-    - name: slimer_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -520,7 +537,7 @@ ScriptedImporter:
         width: 25
         height: 19
       spriteId: d0e9afa4e8f758a468f656c047958ad4
-    - name: slimer_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -529,7 +546,7 @@ ScriptedImporter:
         width: 25
         height: 21
       spriteId: 80c4a589931e9d54b8f5d6b5b6e41535
-    - name: slimer_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -538,7 +555,7 @@ ScriptedImporter:
         width: 25
         height: 21
       spriteId: 1b28f573b96f0784e98ecba88d6e0f70
-    - name: slimer_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -547,7 +564,7 @@ ScriptedImporter:
         width: 25
         height: 21
       spriteId: e073ff807974bb5428bbf137dc1ee486
-    - name: slimer_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -556,7 +573,7 @@ ScriptedImporter:
         width: 25
         height: 19
       spriteId: ce8d2448295892745bd684b5a773713e
-    - name: slimer_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -572,3 +589,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 41, y: 38}
+  previousTextureSize: {x: 128, y: 256}

@@ -25,3 +25,8 @@ MonoBehaviour:
 
     situasinya saat ini
     ?'
+  responses:
+  - textResponse: Yes
+    dialogueObject: {fileID: 11400000, guid: be34385ada60e5d42b656f121160d975, type: 2}
+  - textResponse: No
+    dialogueObject: {fileID: 11400000, guid: ab5b60dce07070047b18c4d675b308eb, type: 2}

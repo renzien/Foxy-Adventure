@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -105,6 +106,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +128,7 @@ ScriptedImporter:
     pivot: {x: 0.54878044, y: -0.3333333}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 69
@@ -146,6 +149,7 @@ ScriptedImporter:
     pivot: {x: 0.38157895, y: -0.5172414}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 69
@@ -166,6 +170,7 @@ ScriptedImporter:
     pivot: {x: 0.35185188, y: -0.07317073}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 69
@@ -186,6 +191,7 @@ ScriptedImporter:
     pivot: {x: 0.78070176, y: -0.01923077}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -206,6 +212,7 @@ ScriptedImporter:
     pivot: {x: 0.78070176, y: -0.01923077}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -226,6 +233,7 @@ ScriptedImporter:
     pivot: {x: 0.78070176, y: -0.01923077}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -246,6 +254,7 @@ ScriptedImporter:
     pivot: {x: 0.78070176, y: -0.01923077}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -264,13 +273,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1445796219
+    guid: 696029479
     name: bat
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: bat_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -279,7 +288,7 @@ ScriptedImporter:
         width: 41
         height: 42
       spriteId: 43a580d83d0180a469fe1f2f7844395f
-    - name: bat_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -288,7 +297,7 @@ ScriptedImporter:
         width: 38
         height: 29
       spriteId: ad3e67a9041504140b01cecad964d5d8
-    - name: bat_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -297,7 +306,7 @@ ScriptedImporter:
         width: 27
         height: 41
       spriteId: 15459cfbe3098ec4789db6912ce81e9b
-    - name: bat_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -306,7 +315,7 @@ ScriptedImporter:
         width: 57
         height: 52
       spriteId: 8d68a3a431239b744a1a07750d09c6be
-    - name: bat_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -315,7 +324,7 @@ ScriptedImporter:
         width: 57
         height: 52
       spriteId: 3971a00e4bbaa1345bdc6805197762eb
-    - name: bat_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -324,7 +333,7 @@ ScriptedImporter:
         width: 57
         height: 52
       spriteId: 66148f4705f5b084c8bd2166d2da5d42
-    - name: bat_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -340,3 +349,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 53, y: 57}
+  previousTextureSize: {x: 128, y: 256}

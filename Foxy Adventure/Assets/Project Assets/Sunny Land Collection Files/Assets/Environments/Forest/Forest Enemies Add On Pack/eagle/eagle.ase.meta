@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -105,6 +106,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +128,7 @@ ScriptedImporter:
     pivot: {x: 0.64285713, y: -0.08}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 50
@@ -146,6 +149,7 @@ ScriptedImporter:
     pivot: {x: 0.48648646, y: -0.025641024}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -166,6 +170,7 @@ ScriptedImporter:
     pivot: {x: 0.47368422, y: -0.024999999}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -186,6 +191,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -0.09375}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -206,6 +212,7 @@ ScriptedImporter:
     pivot: {x: 0.5625, y: -0.15384616}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 50
@@ -226,6 +233,7 @@ ScriptedImporter:
     pivot: {x: 0.64285713, y: -0.08}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 50
@@ -246,6 +254,7 @@ ScriptedImporter:
     pivot: {x: 0.53125, y: -0.05128205}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -266,6 +275,7 @@ ScriptedImporter:
     pivot: {x: 0.5666667, y: -0.12499999}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 50
@@ -286,6 +296,7 @@ ScriptedImporter:
     pivot: {x: 0.5666667, y: -0.12499999}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 50
@@ -306,6 +317,7 @@ ScriptedImporter:
     pivot: {x: 0.53125, y: -0.05128205}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -326,6 +338,7 @@ ScriptedImporter:
     pivot: {x: 0.48571432, y: -0.09375}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 50
@@ -346,6 +359,7 @@ ScriptedImporter:
     pivot: {x: 0.64285713, y: -0.08}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 93
@@ -366,6 +380,7 @@ ScriptedImporter:
     pivot: {x: 0.58064514, y: -0.083333336}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 50
@@ -384,13 +399,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -623896670
+    guid: 593449130
     name: eagle
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: eagle_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -399,7 +414,7 @@ ScriptedImporter:
         width: 40
         height: 41
       spriteId: f724b5c6bd932494b90d11e5372c9901
-    - name: eagle_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -408,7 +423,7 @@ ScriptedImporter:
         width: 37
         height: 39
       spriteId: f90178bdaa0921549983a7fa64cf76ff
-    - name: eagle_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -417,7 +432,7 @@ ScriptedImporter:
         width: 38
         height: 40
       spriteId: 8f4ce28ac4fa0e44e99c059704f3a83b
-    - name: eagle_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -426,7 +441,7 @@ ScriptedImporter:
         width: 38
         height: 32
       spriteId: ee34973d912713d438438dcd1334e751
-    - name: eagle_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -435,7 +450,7 @@ ScriptedImporter:
         width: 32
         height: 26
       spriteId: b2961f6c186f83b498c9626efbaacc46
-    - name: eagle_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -444,7 +459,7 @@ ScriptedImporter:
         width: 40
         height: 41
       spriteId: f93ecf9efa758ed40835078506c8d859
-    - name: eagle_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -453,7 +468,7 @@ ScriptedImporter:
         width: 40
         height: 41
       spriteId: 14bbcd40c4909474080640b0775eb786
-    - name: eagle_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -462,7 +477,7 @@ ScriptedImporter:
         width: 30
         height: 32
       spriteId: c78753d0f1724ba458e68362ff08015a
-    - name: eagle_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -471,7 +486,7 @@ ScriptedImporter:
         width: 30
         height: 32
       spriteId: c210ed7329fe3db4a990d84a7fd49ebe
-    - name: eagle_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -480,7 +495,7 @@ ScriptedImporter:
         width: 40
         height: 41
       spriteId: 168eb299b2b299a428c854191e2073a7
-    - name: eagle_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -489,7 +504,7 @@ ScriptedImporter:
         width: 40
         height: 41
       spriteId: e058239ae1a7e5f42bf93143cbcfbf32
-    - name: eagle_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -498,7 +513,7 @@ ScriptedImporter:
         width: 40
         height: 41
       spriteId: 00ef592ac757f0e44aedf041f04ed01e
-    - name: eagle_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -514,3 +529,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 40, y: 41}
+  previousTextureSize: {x: 128, y: 256}

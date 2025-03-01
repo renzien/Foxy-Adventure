@@ -24,11 +24,11 @@ public class FoxyMove : MonoBehaviour
     private void Update()
     {
         dirX = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+        rb.linearVelocity = new Vector2(dirX * moveSpeed, rb.linearVelocity.y);
 
         if (Input.GetButtonDown("Jump"))
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
 
         UpdateAnimation();
@@ -54,11 +54,11 @@ public class FoxyMove : MonoBehaviour
             state = MovementState.idle;
         }
 
-        if (rb.velocity.y > .1f)
+        if (rb.linearVelocity.y > .1f)
         {
             state = MovementState.jumping;
         }
-        else if (rb.velocity.y < -.1f)
+        else if (rb.linearVelocity.y < -.1f)
         {
             state = MovementState.falling;
         }

@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -105,6 +106,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +128,7 @@ ScriptedImporter:
     pivot: {x: 0.4473684, y: -0.11111112}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 104
@@ -146,6 +149,7 @@ ScriptedImporter:
     pivot: {x: 0.4473684, y: -0.11111112}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 35
@@ -166,6 +170,7 @@ ScriptedImporter:
     pivot: {x: 0.4473684, y: -0.11111112}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 62
@@ -186,6 +191,7 @@ ScriptedImporter:
     pivot: {x: 0.4473684, y: -0.11111112}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 89
@@ -206,6 +212,7 @@ ScriptedImporter:
     pivot: {x: 0.54761904, y: -0.17857145}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 38
@@ -226,6 +233,7 @@ ScriptedImporter:
     pivot: {x: 0.48076925, y: -0.13793103}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -246,6 +254,7 @@ ScriptedImporter:
     pivot: {x: 0.46551722, y: -0.15789475}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 67
@@ -266,6 +275,7 @@ ScriptedImporter:
     pivot: {x: 0.54347825, y: -0.18181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -284,13 +294,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1988837447
+    guid: 1206668765
     name: vulture
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: vulture_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +309,7 @@ ScriptedImporter:
         width: 19
         height: 18
       spriteId: 987113df4ff53884aa6d5ccb2433467a
-    - name: vulture_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +318,7 @@ ScriptedImporter:
         width: 19
         height: 18
       spriteId: 427e0ac71761dd947a98e8067011aa77
-    - name: vulture_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +327,7 @@ ScriptedImporter:
         width: 19
         height: 18
       spriteId: 98586f7af3e05494e8d633ecf88fc3b8
-    - name: vulture_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +336,7 @@ ScriptedImporter:
         width: 19
         height: 18
       spriteId: 992cd32f8fb08f84892944bfe4e92bc8
-    - name: vulture_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +345,7 @@ ScriptedImporter:
         width: 21
         height: 28
       spriteId: 57008a8462e5da74ba90f005a85f9bc0
-    - name: vulture_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +354,7 @@ ScriptedImporter:
         width: 26
         height: 29
       spriteId: 836f5b075a803c84ab6da00f8df7bdc4
-    - name: vulture_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +363,7 @@ ScriptedImporter:
         width: 29
         height: 19
       spriteId: 6b588a5e83a2a00478eb8925f2c345d7
-    - name: vulture_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -369,3 +379,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 39, y: 39}
+  previousTextureSize: {x: 128, y: 128}

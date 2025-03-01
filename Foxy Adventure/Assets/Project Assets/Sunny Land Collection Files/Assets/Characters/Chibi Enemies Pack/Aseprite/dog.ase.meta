@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 1
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -105,6 +106,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +128,7 @@ ScriptedImporter:
     pivot: {x: 0.043252595, y: 0.7432432}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -146,6 +149,7 @@ ScriptedImporter:
     pivot: {x: 0.043252595, y: 0.7432432}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -166,6 +170,7 @@ ScriptedImporter:
     pivot: {x: 0.036585364, y: 0.7432432}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -186,6 +191,7 @@ ScriptedImporter:
     pivot: {x: 0.039930556, y: 0.75342464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -206,6 +212,7 @@ ScriptedImporter:
     pivot: {x: 0.036585364, y: 0.76388884}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -226,6 +233,7 @@ ScriptedImporter:
     pivot: {x: 0.04982818, y: 0.75342464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -246,6 +254,7 @@ ScriptedImporter:
     pivot: {x: 0.039930556, y: 0.7333333}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -266,6 +275,7 @@ ScriptedImporter:
     pivot: {x: 0.04340278, y: 0.72}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -286,6 +296,7 @@ ScriptedImporter:
     pivot: {x: 0.043252595, y: 0.76712334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -306,6 +317,7 @@ ScriptedImporter:
     pivot: {x: 0.05631399, y: 0.80281687}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -324,13 +336,13 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -468968744
+    guid: 1502598200
     name: dog
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: dog_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -339,7 +351,7 @@ ScriptedImporter:
         width: 289
         height: 74
       spriteId: 3cef2bfd8d3eb7142b1b60bae338f83d
-    - name: dog_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -348,7 +360,7 @@ ScriptedImporter:
         width: 289
         height: 74
       spriteId: ab2eb5e76530ae7448c18d6ba3c46d20
-    - name: dog_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -357,7 +369,7 @@ ScriptedImporter:
         width: 287
         height: 74
       spriteId: d7f87a571bd8be34bb2f312417065b60
-    - name: dog_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -366,7 +378,7 @@ ScriptedImporter:
         width: 288
         height: 73
       spriteId: d1c4a58074df7574d9c3f999f70586e5
-    - name: dog_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -375,7 +387,7 @@ ScriptedImporter:
         width: 287
         height: 72
       spriteId: 3a2552dc065393f43975b3b673fee069
-    - name: dog_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -384,7 +396,7 @@ ScriptedImporter:
         width: 291
         height: 73
       spriteId: 87a5889396be6344bacb6b0408b31a8e
-    - name: dog_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -393,7 +405,7 @@ ScriptedImporter:
         width: 288
         height: 75
       spriteId: 071f701e3c67a3642b478e73195d78ed
-    - name: dog_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -402,7 +414,7 @@ ScriptedImporter:
         width: 288
         height: 75
       spriteId: 22f2c0742a145dc438b7bfdf449c424f
-    - name: dog_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -411,7 +423,7 @@ ScriptedImporter:
         width: 289
         height: 73
       spriteId: 22f04f9c5aa59564ea1d8a241a489d25
-    - name: dog_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -427,3 +439,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 33, y: 26}
+  previousTextureSize: {x: 512, y: 1024}
