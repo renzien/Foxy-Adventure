@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FoxyMove : MonoBehaviour
@@ -8,8 +9,11 @@ public class FoxyMove : MonoBehaviour
     private SpriteRenderer sprite;
     private Animator anim;
     private float dirX;
+    public DialogueUI DialogueUI => dialogueUI;
+    public Interactable Interactable { get; set; }
     [SerializeField] private float moveSpeed = 6f;
     [SerializeField] private float jumpForce = 10f;
+    [SerializeField] private DialogueUI dialogueUI;
     private enum MovementState { idle, running, jumping, falling}
 
     // Start is called before the first frame update
@@ -32,6 +36,12 @@ public class FoxyMove : MonoBehaviour
         }
 
         UpdateAnimation();
+
+        // Interact with Character
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Interactable?.Interact(this);
+        }
     }
 
     private void UpdateAnimation()
