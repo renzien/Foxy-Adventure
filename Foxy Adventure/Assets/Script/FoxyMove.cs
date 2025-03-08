@@ -27,6 +27,8 @@ public class FoxyMove : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        if (dialogueUI.IsOpen) return;
+        
         dirX = Input.GetAxisRaw("Horizontal");
         rb.linearVelocity = new Vector2(dirX * moveSpeed, rb.linearVelocity.y);
 
