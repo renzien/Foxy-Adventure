@@ -31,9 +31,14 @@ public class DialogueUI : MonoBehaviour
         for (int i = 0; i < dialogueObject.Dialogue.Length; i++)
         {
             string dialogue = dialogueObject.Dialogue[i];
-            yield return typeEffect.Run(dialogue, labelText);
+
+            yield return RunTypingEffect(dialogue);
+
+            labelText.text = dialogue;
 
             if (i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break;
+
+            yield return null;
 
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
         }
@@ -45,6 +50,20 @@ public class DialogueUI : MonoBehaviour
         else
         {
             ClosedDialogueBox();
+        }
+    }
+
+    private IEnumerator RunTypingEffect(string dialogue)
+    {
+        typeEffect.Run(dialogue, labelText);
+        while (typeEffect.IsRunning)
+        {
+            yield return null;
+
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                typeEffect.Stop();
+            }
         }
     }
 

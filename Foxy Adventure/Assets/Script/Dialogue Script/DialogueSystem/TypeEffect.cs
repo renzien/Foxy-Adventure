@@ -5,6 +5,8 @@ using TMPro;
 public class TypeEffect : MonoBehaviour
 {
     [SerializeField] private float typeSpeed = 50f;
+
+    public bool IsRunning { get; private set; }
     
     private readonly Dictionary<HashSet<char>, float> punctuations = new Dictionary<HashSet<char>, float>()
     {
@@ -12,14 +14,22 @@ public class TypeEffect : MonoBehaviour
         {new HashSet<char>() {',', ';', ':'}, 0.3f},
     };
 
-    public Coroutine Run(string textToType, TMP_Text labelText)
+    private Coroutine typingCoroutine;
+    public void Run(string textToType, TMP_Text labelText)
     {
-        return StartCoroutine(TextType(textToType, labelText));
+        typingCoroutine =  StartCoroutine(TextType(textToType, labelText));
+    }
+
+    public void Stop()
+    {
+        StopCoroutine(typingCoroutine);
+        IsRunning = false;
     }
 
     // IEnumerator
     private IEnumerator TextType(string textToType, TMP_Text labelText)
     {
+        IsRunning = true;
         labelText.text = string.Empty;
 
         float t = 0;
@@ -49,7 +59,7 @@ public class TypeEffect : MonoBehaviour
             yield return null;
         }
 
-        labelText.text = textToType;
+        IsRunning = false;
     }
 
     private bool IsPunctuation(char character, out float waitTime)
