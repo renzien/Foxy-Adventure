@@ -8,10 +8,10 @@ public class TypeEffect : MonoBehaviour
 
     public bool IsRunning { get; private set; }
     
-    private readonly Dictionary<HashSet<char>, float> punctuations = new Dictionary<HashSet<char>, float>()
+    private readonly List<Punctuation> punctuations = new List<Punctuation>()
     {
-        {new HashSet<char>() {'.', '!', '?'}, 0.6f},
-        {new HashSet<char>() {',', ';', ':'}, 0.3f},
+        new Punctuation(new HashSet<char>() {'.', '!', '?'}, 0.6f),
+        new Punctuation(new HashSet<char>() {',', ';', ':'}, 0.3f)
     };
 
     private Coroutine typingCoroutine;
@@ -64,16 +64,28 @@ public class TypeEffect : MonoBehaviour
 
     private bool IsPunctuation(char character, out float waitTime)
     {
-        foreach (KeyValuePair<HashSet<char>, float> punctuationCategory in punctuations)
+        foreach (Punctuation punctuationCategory in punctuations)
         {
-            if (punctuationCategory.Key.Contains(character))
+            if (punctuationCategory.Punctuations.Contains(character))
             {
-                waitTime = punctuationCategory.Value;
+                waitTime = punctuationCategory.WaitTime;
                 return true;
             }
         }
 
         waitTime = default;
         return false;
+    }
+
+    private readonly struct Punctuation
+    {
+        public readonly HashSet<char> Punctuations;
+        public readonly float WaitTime;
+
+        public Punctuation(HashSet<char> punctuations, float waitTime)
+        {
+            Punctuations = punctuations;
+            WaitTime = waitTime;
+        }
     }
 }
