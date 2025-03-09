@@ -1,16 +1,39 @@
 using UnityEngine;
+using System;
 
 public class DialogueResponseEvents : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] private DialogueObject dialogueObject;
+    [SerializeField] private ResponseEvent[] events;
 
-    // Update is called once per frame
-    void Update()
+    public ResponseEvent[] Events => events;
+
+    public void OnValidate()
     {
-        
+        if (dialogueObject == null) return;
+        if (dialogueObject.Responses == null) return;
+        if (events != null && events.Length == dialogueObject.Responses.Length) return;
+
+        if (events == null)
+        {
+            events = new ResponseEvent[dialogueObject.Responses.Length];
+        }
+        else
+        {
+            Array.Resize(ref events, dialogueObject.Responses.Length);
+        }
+
+        for (int i = 0; i < dialogueObject.Responses.Length; i++)
+        {
+            Response response = dialogueObject.Responses[i];
+
+            if (events[i] != null)
+            {
+                events[i].name = response.ResponseText;
+                continue;
+            }
+
+            events[i] = new ResponseEvent() {name = response.ResponseText};
+        }
     }
 }
