@@ -22928,6 +22928,7 @@ GameObject:
   - component: {fileID: 861163146}
   - component: {fileID: 861163150}
   - component: {fileID: 861163151}
+  - component: {fileID: 861163154}
   - component: {fileID: 861163152}
   - component: {fileID: 861163153}
   m_Layer: 0
@@ -23095,11 +23096,48 @@ MonoBehaviour:
   - name: Yes
     onPickedResponse:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 861163152}
+          m_TargetAssemblyTypeName: DialogueActivator, Assembly-CSharp
+          m_MethodName: UpdateDialogueObject
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 1ca92a6dfaa11944e8cc77716c19a199, type: 2}
+            m_ObjectArgumentAssemblyTypeName: DialogueObject, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 861163152}
+          m_TargetAssemblyTypeName: DialogueActivator, Assembly-CSharp
+          m_MethodName: UpdateDialogueObject
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 1ca92a6dfaa11944e8cc77716c19a199, type: 2}
+            m_ObjectArgumentAssemblyTypeName: DialogueObject, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - name: No
     onPickedResponse:
       m_PersistentCalls:
         m_Calls: []
+--- !u!114 &861163154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861163145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558aaa329765d1c47b504ad1481294e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueUI: {fileID: 276966880}
 --- !u!1 &874243996
 GameObject:
   m_ObjectHideFlags: 0
