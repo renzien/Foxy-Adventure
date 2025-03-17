@@ -667,7 +667,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &276966878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -709,7 +709,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 2037067923}
-  labelText: {fileID: 1166397848}
+  textLabel: {fileID: 0}
+  speakerNameLabel: {fileID: 0}
+  speakerImage: {fileID: 0}
 --- !u!114 &276966881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22928,7 +22930,6 @@ GameObject:
   - component: {fileID: 861163146}
   - component: {fileID: 861163150}
   - component: {fileID: 861163151}
-  - component: {fileID: 861163154}
   - component: {fileID: 861163152}
   - component: {fileID: 861163153}
   m_Layer: 0
@@ -23078,7 +23079,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 060b2d673f324014198b0c3d57b4a1ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueObject: {fileID: 11400000, guid: 3f41268a58ee1f943934c9f17ca4369c, type: 2}
+  dialogueObject: {fileID: 11400000, guid: 5820aa5a0411d5f44873c36bb3d21017, type: 2}
 --- !u!114 &861163153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23091,53 +23092,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8251b69ff5140444da867f56e5a4b425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueObject: {fileID: 11400000, guid: 3f41268a58ee1f943934c9f17ca4369c, type: 2}
+  dialogueObject: {fileID: 11400000, guid: 5820aa5a0411d5f44873c36bb3d21017, type: 2}
   events:
-  - name: Yes
-    onPickedResponse:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 861163152}
-          m_TargetAssemblyTypeName: DialogueActivator, Assembly-CSharp
-          m_MethodName: UpdateDialogueObject
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: 1ca92a6dfaa11944e8cc77716c19a199, type: 2}
-            m_ObjectArgumentAssemblyTypeName: DialogueObject, Assembly-CSharp
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 861163152}
-          m_TargetAssemblyTypeName: DialogueActivator, Assembly-CSharp
-          m_MethodName: UpdateDialogueObject
-          m_Mode: 2
-          m_Arguments:
-            m_ObjectArgument: {fileID: 11400000, guid: 1ca92a6dfaa11944e8cc77716c19a199, type: 2}
-            m_ObjectArgumentAssemblyTypeName: DialogueObject, Assembly-CSharp
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - name: No
+  - name: Ya
     onPickedResponse:
       m_PersistentCalls:
         m_Calls: []
---- !u!114 &861163154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 861163145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 558aaa329765d1c47b504ad1481294e9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueUI: {fileID: 276966880}
+  - name: Tidak
+    onPickedResponse:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &874243996
 GameObject:
   m_ObjectHideFlags: 0
@@ -23256,7 +23220,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueBox: {fileID: 181176429}
-  labelText: {fileID: 552109941}
+  textLabel: {fileID: 552109941}
+  speakerNameLabel: {fileID: 227387627}
+  speakerImage: {fileID: 123875660}
 --- !u!114 &874244002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23303,7 +23269,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &971680564
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23320,8 +23286,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 80, y: -31}
-  m_SizeDelta: {x: 140, y: 50}
+  m_AnchoredPosition: {x: 90, y: -31}
+  m_SizeDelta: {x: 120, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &971680565
 MonoBehaviour:
@@ -28546,7 +28512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 65
+    m_Left: 30
     m_Right: 0
     m_Top: 6
     m_Bottom: 0

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8305cd899a98184b96180b464cdd144, type: 3}
+  m_Name: DialData_New
+  m_EditorClassIdentifier: 
+  Dialogue:
+  - Text: "Wahh, tak biasanya aku melihat tuan kodok sedang\nberada diluar rumah.
+      Aku jadi penasaran, apa yang \nsedang ia lakukan."
+    SpeakerName: Foxy-kun
+    SpeakerImage: {fileID: 21300000, guid: 5daf463828333674d9c8d70371461f73, type: 3}
+  - Text: 'Halo, tuan foxy, apa yang sedang kamu lakukan disini ?
+
+      terlihat
+      sangat rapih, dan bersih. Kamu, sedang berencana
+
+      pergi ke pesta kah
+      ?.'
+    SpeakerName: Frog-san
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: 'Kau terlihat seperti orang bingung, tuan foxy.
+
+      Apakah, ada yang
+      bisa kubantu ? '
+    SpeakerName: Frog-san
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  responses:
+  - textResponse: Ya
+    dialogueObject: {fileID: 11400000, guid: be34385ada60e5d42b656f121160d975, type: 2}
+  - textResponse: Tidak
+    dialogueObject: {fileID: 11400000, guid: ab5b60dce07070047b18c4d675b308eb, type: 2}

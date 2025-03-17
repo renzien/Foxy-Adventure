@@ -1,22 +1,23 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class DialogueUI : MonoBehaviour
 {
     [SerializeField] private GameObject dialogueBox;
-    [SerializeField] private TMP_Text labelText;
+    [SerializeField] private TMP_Text textLabel; // Untuk teks dialog
+    [SerializeField] private TMP_Text speakerNameLabel; // Untuk nama pembicara
+    [SerializeField] private Image speakerImage; // Untuk gambar pembicara
 
     public bool IsOpen { get; private set; }
 
-    private ResponseHandler responseHandler;
-    private TypeEffect typeEffect;
+    private TypeEffect typewriterEffect;
 
     private void Start()
     {
-        typeEffect = GetComponent<TypeEffect>();
-        responseHandler = GetComponent<ResponseHandler>();
-        ClosedDialogueBox();
+        typewriterEffect = GetComponent<TypeEffect>();
+        CloseDialogueBox();
     }
 
     public void ShowDialogue(DialogueObject dialogueObject)
@@ -26,56 +27,50 @@ public class DialogueUI : MonoBehaviour
         StartCoroutine(StepThroughDialogue(dialogueObject));
     }
 
-    public void AddRepsonseEvents(ResponseEvent[] responseEvents)
-    {
-        responseHandler.AddResponseEvents(responseEvents);
-    }
-
     private IEnumerator StepThroughDialogue(DialogueObject dialogueObject)
     {
         for (int i = 0; i < dialogueObject.Dialogue.Length; i++)
         {
-            string dialogue = dialogueObject.Dialogue[i];
+            var dialogueEntry = dialogueObject.Dialogue[i];
 
-            yield return RunTypingEffect(dialogue);
+            // Set teks, nama, dan gambar
+            textLabel.text = string.Empty; // Kosongkan label sementara efek mengetik berjalan
+            speakerNameLabel.text = dialogueEntry.SpeakerName;
+            speakerImage.sprite = dialogueEntry.SpeakerImage;
 
-            labelText.text = dialogue;
+            // Efek mengetik untuk teks
+            yield return RunTypingEffect(dialogueEntry.Text);
 
-            if (i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break;
+            textLabel.text = dialogueEntry.Text;
 
             yield return null;
-
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
         }
 
-        if (dialogueObject.HasResponses)
-        {
-            responseHandler.ShowResponses(dialogueObject.Responses);       
-        }
-        else
-        {
-            ClosedDialogueBox();
-        }
+        CloseDialogueBox();
     }
 
     private IEnumerator RunTypingEffect(string dialogue)
     {
-        typeEffect.Run(dialogue, labelText);
-        while (typeEffect.IsRunning)
+        typewriterEffect.Run(dialogue, textLabel);
+
+        while (typewriterEffect.IsRunning)
         {
             yield return null;
 
             if (Input.GetKeyDown(KeyCode.E))
             {
-                typeEffect.Stop();
+                typewriterEffect.Stop();
             }
         }
     }
 
-    private void ClosedDialogueBox()
+    public void CloseDialogueBox()
     {
         IsOpen = false;
         dialogueBox.SetActive(false);
-        labelText.text = string.Empty;
+        textLabel.text = string.Empty;
+        speakerNameLabel.text = string.Empty;
+        speakerImage.sprite = null;
     }
 }

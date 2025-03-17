@@ -9,7 +9,7 @@ public class DialogueActivator : MonoBehaviour, Interactable
         this.dialogueObject = dialogueObject;
     }
 
-    private void OnTriggerEnter2D (Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && other.TryGetComponent(out FoxyMove player))
         {
@@ -32,9 +32,10 @@ public class DialogueActivator : MonoBehaviour, Interactable
     {
         if (TryGetComponent(out DialogueResponseEvents responseEvents) && responseEvents.DialogueObject == dialogueObject)
         {
-            player.DialogueUI.AddRepsonseEvents(responseEvents.Events);
+            // Mengakses ResponseHandler dari DialogueUI
+            player.DialogueUI.GetComponent<ResponseHandler>().AddResponseEvents(responseEvents.Events);
         }
 
         player.DialogueUI.ShowDialogue(dialogueObject);
-    }
+    }
 }

@@ -3,12 +3,19 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Dialogue/DialogueObject")]
 public class DialogueObject : ScriptableObject
 {
-    [SerializeField] [TextArea] private string[] dialogue;
-    [SerializeField] private Response[] responses;
+    [System.Serializable]
+    public class DialogueEntry
+    {
+        [TextArea] public string Text; // Teks dialog
+        public string SpeakerName; // Nama pembicara
+        public Sprite SpeakerImage; // Gambar pembicara
+    }
 
-    public string[] Dialogue => dialogue;
+    public DialogueEntry[] Dialogue; // Array dialog
+
+    [SerializeField] private Response[] responses;
 
     public bool HasResponses => Responses != null && Responses.Length > 0;
 
-    public Response[] Responses => responses;
+    public Response[] Responses => responses;
 }
