@@ -12,11 +12,13 @@ public class DialogueUI : MonoBehaviour
 
     public bool IsOpen { get; private set; }
 
+    private ResponseHandler responseHandler;
     private TypeEffect typewriterEffect;
 
     private void Start()
     {
         typewriterEffect = GetComponent<TypeEffect>();
+        responseHandler = GetComponent<ResponseHandler>();
         CloseDialogueBox();
     }
 
@@ -43,11 +45,22 @@ public class DialogueUI : MonoBehaviour
 
             textLabel.text = dialogueEntry.Text;
 
+            // Tampilkan Response Jika ada
+            if (i == dialogueObject.Dialogue.Length - 1 && dialogueObject.HasResponses) break;
+
             yield return null;
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
         }
 
-        CloseDialogueBox();
+        if (dialogueObject.HasResponses)
+        {
+            responseHandler.ShowResponses(dialogueObject.Responses);
+        }
+        else
+        {
+            CloseDialogueBox();
+        }
+
     }
 
     private IEnumerator RunTypingEffect(string dialogue)

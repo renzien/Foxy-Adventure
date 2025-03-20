@@ -22884,7 +22884,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Option 1
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 166c89047fcac1b4cb6045b78d6ac93d, type: 2}
   m_sharedMaterial: {fileID: -4922696524848745195, guid: 166c89047fcac1b4cb6045b78d6ac93d, type: 2}
@@ -29450,9 +29450,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 30
+    m_Left: 5
     m_Right: 0
-    m_Top: 6
+    m_Top: 8
     m_Bottom: 0
   m_ChildAlignment: 1
   m_Spacing: 0
