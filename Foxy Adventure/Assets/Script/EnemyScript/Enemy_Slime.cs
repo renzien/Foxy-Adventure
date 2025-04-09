@@ -1,6 +1,7 @@
 using UnityEngine;
+using Pathfinding;
 
-public class Enemy : MonoBehaviour
+public class Enemy_Slime : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
