@@ -39,7 +39,6 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
-
     void FixedUpdate()
     {
         if (path == null)
