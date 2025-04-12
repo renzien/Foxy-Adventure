@@ -66,7 +66,6 @@ public class EnemyAI : MonoBehaviour
             currentWaypoint++;
         }
 
-
         // Flip Sprite Slime Direction
         if (rb.linearVelocityX >= 0.01f)
         {
