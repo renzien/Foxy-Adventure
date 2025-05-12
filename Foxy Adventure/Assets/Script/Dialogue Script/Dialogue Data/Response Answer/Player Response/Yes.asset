@@ -39,4 +39,54 @@ MonoBehaviour:
       ini bekerja.
     SpeakerName: ???
     SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: Kalau begitu.., apakah tuan kodok mengetahui jalannya ?
+    SpeakerName: Veyrin
+    SpeakerImage: {fileID: 21300000, guid: 5daf463828333674d9c8d70371461f73, type: 3}
+  - Text: Mengetahui bukan berarti aku bisa langsung menunjukkannya padamu. Setiap
+      perjalanan memiliki ujiannya sendiri
+    SpeakerName: ???
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: Apa yang harus aku lakukan kalau begitu ?
+    SpeakerName: Veyrin
+    SpeakerImage: {fileID: 21300000, guid: 5daf463828333674d9c8d70371461f73, type: 3}
+  - Text: Sebelum kita membicarakan lebih jauh mengenai jalan keluar, aku ingin memastikan
+      sesuatu terlebih dahulu.
+    SpeakerName: ???
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: Memastikan sesuatu.. ?
+    SpeakerName: Veyrin
+    SpeakerImage: {fileID: 21300000, guid: 5daf463828333674d9c8d70371461f73, type: 3}
+  - Text: Beberapa slime telah berkeliaran di sekitar wilayah ini akhir-akhir ini,
+      menyebabkan masalah bagi makhluk yang tinggal disini.
+    SpeakerName: ???
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: Sebelum aku memberitahumu lebih lanjut, aku ingin kau menyingkirkan mereka
+      terlebih dahulu. Anggap saja sebagai ujian kecil.
+    SpeakerName: ???
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: Menghabisi beberapa slime ? Hah.. Itu bukan hal yang sulit. Jika itu yang
+      harus aku lakukan, baiklah. Aku akan kembali setelah tugas ini selesai.
+    SpeakerName: Veyrin
+    SpeakerImage: {fileID: 21300000, guid: 5daf463828333674d9c8d70371461f73, type: 3}
+  - Text: Hmm... Bagus. Kau tampaknya cukup percaya diri.
+    SpeakerName: ???
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: 'Sebelum aku pergi melawan.. Aku masih belum tahu harus memanggil anda
+      dengan nama apa ? '
+    SpeakerName: Veyrin
+    SpeakerImage: {fileID: 21300000, guid: 5daf463828333674d9c8d70371461f73, type: 3}
+  - Text: Ah... Benar juga...
+    SpeakerName: ???
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: Toadrick. Panggil saja Toadrick
+    SpeakerName: Toadrick
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: Tuan toadrick... Nama yang menarik. Baiklah, aku akan segera kembali setelah
+      menyelasikan tugas ini.
+    SpeakerName: Veyrin
+    SpeakerImage: {fileID: 21300000, guid: 5daf463828333674d9c8d70371461f73, type: 3}
+  - Text: Jangan terlalu ceroboh. Forest Abyss selalu menyimpan kejutan bagi mereka
+      yang lengah.
+    SpeakerName: Toadrick
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
   responses: []

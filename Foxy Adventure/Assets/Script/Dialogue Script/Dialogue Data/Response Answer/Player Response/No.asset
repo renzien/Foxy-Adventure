@@ -12,10 +12,76 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8305cd899a98184b96180b464cdd144, type: 3}
   m_Name: No
   m_EditorClassIdentifier: 
-  dialogue:
-  - 'Ahh, lebih baik jangan. Aku takut mengganggu ketenangan
-
-    tuan kodok, mungkin
-    saja ia sedang ingin sendiri di luar
-
-    lain waktu akan ku tanyakan.'
+  Dialogue:
+  - Text: Tidak, aku baik-baik saja. Tidak ada yang perlu dikhawatirkan.
+    SpeakerName: Veyrin
+    SpeakerImage: {fileID: 21300000, guid: 5daf463828333674d9c8d70371461f73, type: 3}
+  - Text: Begitu... Kau tidak perlu berpura-pura. Aku sudah hidup lebih lama dari
+      yang bisa kau bayangkan. Aku dapat melihat dengan jelas bahwa kau tengah diliputi
+      kebingungan.
+    SpeakerName: ???
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: Huh...
+    SpeakerName: Veyrin
+    SpeakerImage: {fileID: 21300000, guid: 5daf463828333674d9c8d70371461f73, type: 3}
+  - Text: Baiklah... Aku memang merasa bingung. Forest Abyss terasa seperti labirin
+      yang tak berujung. Setiap jalan tampak serupa, dan setiap kali aku merasa sudah
+      mendekati jalan keluar, aku kembali ke tempat awal.
+    SpeakerName: Veyrin
+    SpeakerImage: {fileID: 21300000, guid: 5daf463828333674d9c8d70371461f73, type: 3}
+  - Text: Itulah sifat hutan ini. Ia tidak akan membiarkan siapa pun pergi dengan
+      mudah. Banyak yang terjebak dalam siklusnya, tersesat di dalam kabut tanpa
+      harapan.
+    SpeakerName: ???
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: Kalau begitu... apakah kamu mengetahui jalannya ?
+    SpeakerName: Veyrin
+    SpeakerImage: {fileID: 21300000, guid: 5daf463828333674d9c8d70371461f73, type: 3}
+  - Text: Mengetahui bukan berarti aku bisa langsung menunjukkannya padamu. Setiap
+      perjalanan memiliki ujiannya sendiri.
+    SpeakerName: ???
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: Apa yang harus aku lakukan kalau begitu ?
+    SpeakerName: Veyrin
+    SpeakerImage: {fileID: 21300000, guid: 5daf463828333674d9c8d70371461f73, type: 3}
+  - Text: Sebelum kita membicarakan lebih jauh mengenai jalan keluar, aku ingin memastikan
+      sesuatu terlebih dahulu.
+    SpeakerName: ???
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: Memastikan sesuatu... ?
+    SpeakerName: Veyrin
+    SpeakerImage: {fileID: 21300000, guid: 5daf463828333674d9c8d70371461f73, type: 3}
+  - Text: Beberapa slime telah berkeliaran di sekitar wilayah ini akhir-akhir ini,
+      menyebabkan masalah bagi makhluk lain yang tinggal di sini.
+    SpeakerName: ???
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: Sebelum aku memberitahumu lebih lanjut, aku ingin kau menyingkirkan mereka
+      terlebih dahulu. Anggap saja ini sebagai ujian kecil.
+    SpeakerName: ???
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: Menghabisi beberapa slime ? Itu bukan hal yang sulit. Jika itu yang harus
+      aku lakukan, baiklah. Aku akan kembali setelah tugas ini selesai.
+    SpeakerName: Veyrin
+    SpeakerImage: {fileID: 21300000, guid: 5daf463828333674d9c8d70371461f73, type: 3}
+  - Text: Hmm... Bagus. Kau tampaknya cukup percaya diri.
+    SpeakerName: ???
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: Sebelum aku pergi... Aku masih belum tahu harus memanggil tuan kodok dengan
+      nama apa ?
+    SpeakerName: Veyrin
+    SpeakerImage: {fileID: 21300000, guid: 5daf463828333674d9c8d70371461f73, type: 3}
+  - Text: Ahh... Benar juga...
+    SpeakerName: ???
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: Toadrick... Kau bisa memanggilku Toadrick
+    SpeakerName: Toadrick
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  - Text: Tuang toadrick... Nama yang menarik. Baiklah aku akan segera kembali setelah
+      menyelesaikan tugas ini.
+    SpeakerName: Veyrin
+    SpeakerImage: {fileID: 21300000, guid: 5daf463828333674d9c8d70371461f73, type: 3}
+  - Text: Jangan terlalu ceroboh. Forest Abyss selalu menyimpan kejutan bagi mereka
+      yang lengah.
+    SpeakerName: Toadrick
+    SpeakerImage: {fileID: 21300000, guid: fc13d124e8a8e1640920ccfe44993b52, type: 3}
+  responses: []
